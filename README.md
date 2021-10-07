@@ -7,7 +7,6 @@ This repo includes two benchmarks, which you use as follows:
 3. On server, close hs-server.js.
 4. On server, run `node tcp-server.js`.
 5. On client, run `HOST=$HOST PORT=12345 node tcp-client.js`. The TCP bench will run.
-```
 
 Both benchmarks will go through 10 iterations.
 Each iteration will open a connection, send a packet from client to server, echo the packet back from server to client, then close the connection.
